@@ -24,7 +24,7 @@ import logging
 import os
 from io import open
 
-from .file_utils import cached_path, CONFIG_NAME
+from file_utils import cached_path, CONFIG_NAME
 
 logger = logging.getLogger(__name__)
 
