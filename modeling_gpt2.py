@@ -66,6 +66,7 @@ def load_tf_weights_in_gpt2(model, config, gpt2_checkpoint_path):
         arrays.append(array.squeeze())
 
     for name, array in zip(names, arrays):
+        print(name)
         if name == 'global_step':
             continue
         name = name[6:]  # skip "model/"
