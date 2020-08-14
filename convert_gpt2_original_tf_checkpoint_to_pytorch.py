@@ -21,9 +21,9 @@ from io import open
 
 import torch
 
-from transformers.file_utils import CONFIG_NAME, WEIGHTS_NAME
-from transformers.modeling_gpt2 import GPT2Model, load_tf_weights_in_gpt2
-from transformers.configuration_gpt2 import GPT2Config
+from file_utils import CONFIG_NAME, WEIGHTS_NAME
+from modeling_gpt2 import GPT2Model, load_tf_weights_in_gpt2
+from configuration_gpt2 import GPT2Config
 
 import logging
 logging.basicConfig(level=logging.INFO)
